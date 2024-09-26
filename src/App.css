@@ -1,6 +1,26 @@
 .App {
   text-align: center;
+  padding: auto;
+  margin-bottom: 20px;
+  border: none;
+  background-color: aliceblue;
+
 }
+.MsgBox{
+  margin: 50px;
+  padding: 20px;
+  text-align: center ;
+  border: navy;
+}
+.ui-define{
+  background-color: rgba(243,240,243);
+  margin-left: 25%;
+  width: 50%;
+  padding:20px 30px;
+  margin-top: 5%;
+  text-align: center;
+}
+
 
 .App-logo {
   height: 40vmin;
