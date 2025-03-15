@@ -27,7 +27,7 @@ function Contact(){
     }
     return(
         <>
-        <pre>{(flag)?<h2 >Hello {inputData.name}, You have registered sucessfully ! </h2>:" " }</pre>
+        <pre style={{textAlign:"center"}}>{(flag)?<h2 >Hello {inputData.name}, You Message sends successfully sucessfully ! </h2>:" " }</pre>
             <form className="Contact" onSubmit={handleSubmit}>
                 <div className="header">
                     <h1>Contact Us</h1>
